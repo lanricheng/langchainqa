@@ -5,7 +5,7 @@ from langchain.chains import RetrievalQA
 from langchain.prompts.prompt import PromptTemplate
 
 from config import CFG
-from model.llm.llm_service import ChatGLMService
+from llm_service import ChatGLMService
 from vector_searcher.MYFAISS import MYFAISS
 
 class DocumentEnhanceQA(object):
